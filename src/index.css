@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: Ringbearer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Ringbearer;
+  src: url("./assets/RingbearerMedium-51mgZ.ttf");
+}

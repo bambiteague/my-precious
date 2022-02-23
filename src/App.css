@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #2a2721;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(231, 227, 216);
+  overflow: hidden;
+}
+
+.App-title {
+  z-index: 1;
+}
+
+.Search-n-Quote {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 80vw;
+  z-index: 1;
+}
+
+.quote-scroll {
+  font-size: 1.5rem;
+  margin-right: 0vw;
+  width: 35vw;
+  height: 6vh;
+  margin-top: -6vh;
+}
+
+.quote-scroll h6 {
+  margin-top: -1vh;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.quote-scroll h6:hover {
+  text-shadow: 0px 0px 10px #fff;
+}
+
+.SearchBar {
+  margin: 3vw;
+  z-index: 1;
+  opacity: 0.25;
+  transition: opacity 0.5s;
+}
+
+.SearchBar:hover {
+  filter: drop-shadow(0px 0px 10px #fff);
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.SearchBar h3 {
+  margin-bottom: -0.75vh;
+  text-decoration: underline;
+}
+
+.SearchBar button {
+  border: none;
+  background: transparent;
+  font-family: Ringbearer;
+  color: #fff;
+}
