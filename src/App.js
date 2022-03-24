@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.css";   
 import { useEffect, useState } from "react";
 import Characters from "./components/Characters/Characters";
 import SearchBar from "./components/SearchBar";
@@ -11,7 +11,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
-  const auth = { Authorization: "YOUR PERSONAL CODE GOES HERE!!!!" };
+  const auth = { Authorization: "Bearer nndOSrec9JYyI2q1j9hc" };
 
   useEffect(() => {
     fetch(`https://the-one-api.dev/v2/character`, {
